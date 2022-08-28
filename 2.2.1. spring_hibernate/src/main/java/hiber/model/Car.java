@@ -18,6 +18,9 @@ public class Car {
         this.series = series;
     }
 
+    public Car() {
+    }
+
     public String getModel() {
         return model;
     }
@@ -32,8 +35,5 @@ public class Car {
 
     public void setSeries(int series) {
         this.series = series;
-    }
-
-    public Car() {
     }
 }

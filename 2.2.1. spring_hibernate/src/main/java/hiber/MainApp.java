@@ -42,7 +42,7 @@ public class MainApp {
       System.out.println(userService.getUserByCar("Ford", 150 ));
       List<User> users = userService.listUsers();
       for (User user : users) {
-         System.out.println(user.toString());
+         System.out.println(user);
       }
       context.close();
    }
